@@ -15,6 +15,7 @@ docker run -d \
   --restart always \
   --network host \
   --cap-add=NET_ADMIN \
+  -e KEY=cskel5pSilLcQk
   $IMAGE
 
 echo "✅ CastarSDK container is running as '$CONTAINER_NAME'"
